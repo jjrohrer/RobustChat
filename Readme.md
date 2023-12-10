@@ -3,6 +3,7 @@ Official Docs: https://jjrohrer.github.io/RobustChat/
 
 
 ### Mission
+<img align="right" width="100" height="100" src="./docs/images/logo.png">
 Create an open-ai style chat library suitable for the PHP to mostly reusable in their own applications, including a well-refined UI.
 
 We will emphasize the following
