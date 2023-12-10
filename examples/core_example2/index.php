@@ -27,13 +27,15 @@ $opts = [
 ];
 
 // --- DELTA
-header('Content-type: text/event-stream');
+// From https://github.com/orhanerday/open-ai#stream-example
+header('Content-type: text/stream');
 header('Cache-Control: no-cache');
-print "Prompt: $prompt
-<br>
-Answer: ";
+print <<<html
+    Prompt: $prompt
+    <br>
+    Answer:
+html;
 
-// $response_asJson = $open_ai->chat($opts); // Old blocking method
 $open_ai->chat($opts, function ($curl_info, $data) use (&$deltaText) {
     echo $data . "<br><br>";
     echo PHP_EOL;
@@ -42,27 +44,6 @@ $open_ai->chat($opts, function ($curl_info, $data) use (&$deltaText) {
     return strlen($data);
 });
 
-// $response = json_decode($response_asJson);
 
-
-//$answer = $response->choices[0]->message->content;
-?>
-<div id="divID">Streaming Answer Will Be Seen Here</div>
-<script>
-    var eventSource = new EventSource("/");
-    var div = document.getElementById('divID');
-
-
-    eventSource.onmessage = function (e) {
-        if(e.data == "[DONE]")
-        {
-            div.innerHTML += "<br><br> (Done)";
-        }
-        div.innerHTML += JSON.parse(e.data).choices[0].text;
-    };
-    eventSource.onerror = function (e) {
-        console.log(e);
-    };
-</script>
 
 
