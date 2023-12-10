@@ -1,7 +1,8 @@
-GitHub: https://github.com/jjrohrer/RobustChat
-Official Docs: https://jjrohrer.github.io/RobustChat/
- _(FYI: This self-published from `/docs`)_
 <img alt="logo" align="right" width="100" height="100" src="./docs/images/logo.png">
+GitHub: https://github.com/jjrohrer/RobustChat
+
+Official Docs: https://jjrohrer.github.io/RobustChat/
+ 
 ### Summary
 A complete openai-like chat package you can use in your own projects, 
 with an emphasis on good-enough for startup MVP-style work, plus leaning into 
