@@ -1,9 +1,19 @@
+GitHub: https://github.com/jjrohrer/RobustChat
 Official Docs: https://jjrohrer.github.io/RobustChat/
  _(FYI: This self-published from `/docs`)_
+<img alt="logo" align="right" width="100" height="100" src="./docs/images/logo.png">
+### Summary
+A complete openai-like chat package you can use in your own projects, 
+with an emphasis on good-enough for startup MVP-style work, plus leaning into 
+educating fellow developers along the way.
 
+### QuickStart Local Playground
+see: [Readme.QuickPlayground.md](Readme.QuickPlayground.md)
+
+### QuickStart for your App
+see: [Readme.QuickPlayground.md](Readme.QuickPlayground.md)
 
 ### Mission
-<img alt="logo" align="right" width="100" height="100" src="./docs/images/logo.png">
 Create an open-ai style chat library suitable for the PHP to mostly reusable in their own applications, including a well-refined UI.
 
 We will emphasize the following
@@ -32,11 +42,17 @@ This started as an offshoot of making a chat-like WebApp for interacting with AI
 
 #### Stage 1 (Basics)
 * [X] Useful Links
-* [ ] Hello World with API to openAi (blocking)
+* [X] Hello World with API to openAi (blocking)
 * [ ] Hello World with API to openAi (streaming)
+* [ ] Hello World input box
+* [X] QuickStart for local playground
+* [X] GitHub Pages
 #### Stage 2 (Chat)
+* [ ] Quick Model look-up constants
 * [ ] Multi-Bubble chat stream
 * [ ] Instant submit and appropriate scrolling
+* [ ] Get EtGrok working for showing code samples
+* [ ] Figure out how to do Laravel Examples (without having to symlink into existing install)
 #### Stage 3 
 * ( ) Each bubble with ability to show extra details (like, debug hints)
 * [ ] Proper scrolling (re-scroll upon submit, and indicate scroll on response if scrolled up)
