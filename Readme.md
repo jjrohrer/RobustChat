@@ -29,8 +29,9 @@ We will emphasize the following
 This started as an offshoot of making a chat-like WebApp for interacting with AIs in the business-education space. After getting some proof-of-concept going, I found the edge-details around implementing streaming and reactive UI was starting to get tricky, leading to a potential re-architecting of the app. This was going to stretch my own knowledge, but it also could become an opportunity for me to better engage the community, and even give back a bit.
 
 ### Roadmap
+
 #### Stage 1 (Basics)
-* [ ] Useful Links
+* [X] Useful Links
 * [ ] Hello World with API to openAi (blocking)
 * [ ] Hello World with API to openAi (streaming)
 #### Stage 2 (Chat)
@@ -42,7 +43,11 @@ This started as an offshoot of making a chat-like WebApp for interacting with AI
 * [ ] Scroll window, not whole page (so submit stays on-screen)
 #### Stage 4
 * [ ] Customizable UI
-* [ ] Show 
+* [ ] Ensure lots of stuff not included on production
+* [ ] Make sure the examples work on your local machine (and people know how to make that happen)
+#### Stage 5
+* [ ] FilamentPHP DevCheck Card
+
 
 ### PHP Evangelization
 Python & REACT get most of the love out in the real-world. Showing nicely-refined UI with LLMs is a nice way to for PHP to properly reclaim its appropriate glory. More importantly, we believe a core value of PHP has been its supportive community and well-documented projects - this is an opportunity to continue this.
