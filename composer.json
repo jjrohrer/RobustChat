@@ -2,9 +2,14 @@
   "name": "jjrohrer/robustchat",
   "type": "project",
   "description": "Toolkit for learning and utilizing LLM chats, with good-enough UI",
+  "homepage": "https://github.com/jjrohrer/RobustChat",
   "keywords": [
     "openai"
-
+  ],
+  "authors": [
+    {
+      "name": "JJ Rohrer"
+    }
   ],
   "license": "MIT",
   "require": {
