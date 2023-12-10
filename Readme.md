@@ -3,7 +3,7 @@ Official Docs: https://jjrohrer.github.io/RobustChat/
 
 
 ### Mission
-<img align="right" width="100" height="100" src="./docs/images/logo.png">
+<img alt="logo" align="right" width="100" height="100" src="./docs/images/logo.png">
 Create an open-ai style chat library suitable for the PHP to mostly reusable in their own applications, including a well-refined UI.
 
 We will emphasize the following
@@ -18,12 +18,37 @@ We will emphasize the following
     * Good test cases and development cases
     * Production-ready-flags (like, removing some development-only features)
 
+### Tech Stack
+* Laravel 10+ (and Symfony, in future)
+* Tailwind
+* Livewire 3 + Alpine 3
+* OpenAi API
+* https://github.com/orhanerday/open-ai  (and https://github.com/openai-php/client, in future)
 
 ### Motivation
 This started as an offshoot of making a chat-like WebApp for interacting with AIs in the business-education space. After getting some proof-of-concept going, I found the edge-details around implementing streaming and reactive UI was starting to get tricky, leading to a potential re-architecting of the app. This was going to stretch my own knowledge, but it also could become an opportunity for me to better engage the community, and even give back a bit.
+
+### Roadmap
+#### Stage 1 (Basics)
+* [ ] Useful Links
+* [ ] Hello World with API to openAi (blocking)
+* [ ] Hello World with API to openAi (streaming)
+#### Stage 2 (Chat)
+* [ ] Multi-Bubble chat stream
+* [ ] Instant submit and appropriate scrolling
+#### Stage 3 
+* ( ) Each bubble with ability to show extra details (like, debug hints)
+* [ ] Proper scrolling (re-scroll upon submit, and indicate scroll on response if scrolled up)
+* [ ] Scroll window, not whole page (so submit stays on-screen)
+#### Stage 4
+* [ ] Customizable UI
+* [ ] Show 
 
 ### PHP Evangelization
 Python & REACT get most of the love out in the real-world. Showing nicely-refined UI with LLMs is a nice way to for PHP to properly reclaim its appropriate glory. More importantly, we believe a core value of PHP has been its supportive community and well-documented projects - this is an opportunity to continue this.
 
 ### Personal Backstory
 I've developed php on-and-off since 2002-ish. Most of my projects have been fairly private, so this is my attempt to engage more publically.
+
+### Useful Links
+* [Page -o- Links](./docs/links.md)
