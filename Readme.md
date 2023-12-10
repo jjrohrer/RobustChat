@@ -48,6 +48,8 @@ This started as an offshoot of making a chat-like WebApp for interacting with AI
 * [X] QuickStart for local playground
 * [X] GitHub Pages
 #### Stage 2 (Chat)
+* [ ] Onto packagist
+* [ ] QuickStart for Apps
 * [ ] Quick Model look-up constants
 * [ ] Multi-Bubble chat stream
 * [ ] Instant submit and appropriate scrolling
